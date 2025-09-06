@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtToken1.IdentityProvider", "src\JwtToken1.IdentityProvider\JwtToken1.IdentityProvider.csproj", "{60960DE7-F71C-4022-A9E2-5C118608394B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtToken1.Core", "src\JwtToken1.Core\JwtToken1.Core.csproj", "{71AA0E37-5D91-44CA-96B9-0701A28282D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtToken1.Api1", "src\JwtToken1.Api1\JwtToken1.Api1.csproj", "{A869F529-D071-4945-9A37-A57E0D6F3AA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60960DE7-F71C-4022-A9E2-5C118608394B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60960DE7-F71C-4022-A9E2-5C118608394B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60960DE7-F71C-4022-A9E2-5C118608394B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60960DE7-F71C-4022-A9E2-5C118608394B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AA0E37-5D91-44CA-96B9-0701A28282D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AA0E37-5D91-44CA-96B9-0701A28282D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AA0E37-5D91-44CA-96B9-0701A28282D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AA0E37-5D91-44CA-96B9-0701A28282D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A869F529-D071-4945-9A37-A57E0D6F3AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A869F529-D071-4945-9A37-A57E0D6F3AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A869F529-D071-4945-9A37-A57E0D6F3AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A869F529-D071-4945-9A37-A57E0D6F3AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60960DE7-F71C-4022-A9E2-5C118608394B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{71AA0E37-5D91-44CA-96B9-0701A28282D4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A869F529-D071-4945-9A37-A57E0D6F3AA9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50446988-A3E0-4510-B024-8C037AA484DB}
+	EndGlobalSection
+EndGlobal

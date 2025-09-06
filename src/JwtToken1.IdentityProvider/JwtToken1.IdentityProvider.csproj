@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Scalar.AspNetCore" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\JwtToken1.Core\JwtToken1.Core.csproj" />
+  </ItemGroup>
+  
+</Project>
